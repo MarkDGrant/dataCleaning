@@ -5,7 +5,6 @@ The following, corresponding to program lines, outlines data manipuation and cle
 File  ↓	Comment  ↓
 
 run_analysis.R (2)	 run_analysis.R 2014-11-22
-
 run_analysis.R (3)	 if necessary set working directory to r files, "/UCI HAR Dataset" will be a subdirectory
 
 run_analysis.R (4)	 setwd("/Users/.../r")
