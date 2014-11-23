@@ -5,6 +5,7 @@ The following, corresponding to program lines, outlines data manipuation and cle
 File  ↓	Comment  ↓
 
 run_analysis.R (2)	 run_analysis.R 2014-11-22
+
 run_analysis.R (3)	 if necessary set working directory to r files, "/UCI HAR Dataset" will be a subdirectory
 
 run_analysis.R (4)	 setwd("/Users/.../r")
@@ -33,7 +34,7 @@ run_analysis.R (67)	 CODE: Tidy data set average of each variable for each activ
 
 Descriptive listing of variables included in the tidy dataset, means by subject and activity
 
- tBodyAcc-mean-X
+tBodyAcc-mean-X 
 tBodyAcc-mean-Y
 tBodyAcc-mean-Z
 tBodyAcc-std-X
