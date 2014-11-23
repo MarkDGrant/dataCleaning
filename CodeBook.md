@@ -19,6 +19,7 @@ run_analysis.R (61)	 CODE: Extracts only the measurements on the mean and standa
 run_analysis.R (67)	 CODE: Tidy data set average of each variable for each activity and subject ####
 
 Descriptive listing of variables included in the tidy dataset, means by subject and activity
+
  [1,] "tBodyAcc-mean-X"              
  [2,] "tBodyAcc-mean-Y"              
  [3,] "tBodyAcc-mean-Z"              
