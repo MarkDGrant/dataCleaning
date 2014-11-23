@@ -1,3 +1,9 @@
+Data were obtained from:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+with description found: 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+
 R script to create tidy dataset follows includes the following steps:
 
 - set working directory to program files, where "/UCI HAR Dataset" is a subdirectory
