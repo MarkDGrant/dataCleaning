@@ -34,7 +34,7 @@ run_analysis.R (67)	 CODE: Tidy data set average of each variable for each activ
 
 Descriptive listing of variables included in the tidy dataset, means by subject and activity
 
-tBodyAcc-mean-X 
+tBodyAcc-mean-X
 tBodyAcc-mean-Y
 tBodyAcc-mean-Z
 tBodyAcc-std-X
