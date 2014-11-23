@@ -2,37 +2,22 @@ Description of variables, the data, and any transformations
 
 The following, corresponding to program lines, outlines data manipuation and cleaning
 
-File  ↓	Comment  ↓
+run_analysis.R (2)	 run_analysis.R 2014-11-22  
+run_analysis.R (3)	 if necessary set working directory to r files, "/UCI HAR Dataset" will be a subdirectory  
+run_analysis.R (4)	 setwd("/Users/.../r")  
+run_analysis.R (6)	 Merges the training and the test sets to create one data sets  
+run_analysis.R (8)	 read data  
+run_analysis.R (9)	 verify correct files to merge  
+run_analysis.R (29)	 read activity names and assign as descriptive names  
+run_analysis.R (33)	 clean up variable names  
+run_analysis.R (39)	 label y_test and y_train  
+run_analysis.R (47)	 create test and training sets; variable to identify train or test data   
+run_analysis.R (54)	 merge datasets; different subjects included in each  
+run_analysis.R (55)	 verify same variables in each; yes  
+run_analysis.R (61)	 CODE: Extracts only the measurements on the mean and standard deviation for each measurement.  
+run_analysis.R (67)	 CODE: Tidy data set average of each variable for each activity and subject  
 
-run_analysis.R (2)	 run_analysis.R 2014-11-22
-
-run_analysis.R (3)	 if necessary set working directory to r files, "/UCI HAR Dataset" will be a subdirectory
-
-run_analysis.R (4)	 setwd("/Users/.../r")
-
-run_analysis.R (6)	 Merges the training and the test sets to create one data sets ####
-
-run_analysis.R (8)	 read data
-
-run_analysis.R (9)	 verify correct files to merge
-
-run_analysis.R (29)	 read activity names and assign as descriptive names
-
-run_analysis.R (33)	 clean up variable names
-
-run_analysis.R (39)	 label y_test and y_train
-
-run_analysis.R (47)	 create test and training sets; variable to identify train or test data
-
-run_analysis.R (54)	 merge datasets; different subjects included in each
-
-run_analysis.R (55)	 verify same variables in each; yes
-
-run_analysis.R (61)	 CODE: Extracts only the measurements on the mean and standard deviation for each measurement. ####
-
-run_analysis.R (67)	 CODE: Tidy data set average of each variable for each activity and subject ####
-
-Descriptive listing of variables included in the tidy dataset, means by subject and activity
+Descriptive listing of variables included in the tidy dataset, means by subject and activity  
 
 tBodyAcc-mean-X  
 tBodyAcc-mean-Y  
