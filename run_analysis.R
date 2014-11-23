@@ -56,7 +56,7 @@ dataAll <- rbind(trainAll, testAll)
 # * (end)
 
 ## CODE: Extracts only the measurements on the mean and standard deviation for each measurement.  ####
-dataAllMeanStd <- dataAll[, c("subject","activity", names(dataAll)[grep("mean|std", names(dataAll))])]
+dataAllMeanStd <- dataAll[, c("subject","activity", names(dataAll)[grep("mean|std|Mean|Std", names(dataAll))])]
 # * (end)
 
 ## CODE: Tidy data set average of each variable for each activity and subject  ####
